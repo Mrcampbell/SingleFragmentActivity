@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">SingleFragmentActivityExample</string>
+    <string name="fragment_child_button_click_to_count_label">Click Me!</string>
+    <string name="app_title">SingleFragmentActivity Implementation</string>
+    <string name="app_explanation">
+        This is an example of a SingleFragmentActivity
+        \nimplementation The fragmented approach allows
+        \nyou to develop extensible, multi-paned
+        \napplications without having to refactor.  It\'s
+        \nmore work up front, but avoids the minefield of
+        \nimplementing it later.
+        \n\nThe steps to implement it is as follows:
+        \n\n1. Create a SingleFragmentActivity that is abstract and has
+              onCreate(Bundle) Method and an abstract createFragment()
+              function.  It extends the AppCompatActivity.
+        \n\n2. Create a host layout named activity_fragment.xml that has
+              a single FrameLayout that will host the fragment.
+        \n\n3. ParentActivity will implement the SingleFragmentActivity
+              and override the createFragment()
+        \n\n4. ChildFragment extends the Fragment class and is a fully fledged,
+              final product fragment.
+    </string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp">
+
+    <TextView
+        android:id="@+id/fragment_child_text_view_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="24dp"
+        />
+
+    <TextView
+        android:id="@+id/fragment_child_text_view_body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Body"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="40sp"
+
+        />
+
+    <Button
+        android:id="@+id/fragment_child_button_click_to_count"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/fragment_child_button_click_to_count_label"
+        android:layout_marginBottom="40sp"
+        />
+
+    <TextView
+        android:id="@+id/fragment_child_text_view_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:text="0"/>
+
+</LinearLayout>
